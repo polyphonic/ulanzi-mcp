@@ -1,0 +1,22 @@
+name: Feature request
+description: "Suggest an improvement to MCP Server."
+title: "[Feature]: "
+body:
+  - type: input
+    id: platform
+    attributes:
+      label: Device and operating system
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested behavior
+    validations:
+      required: true

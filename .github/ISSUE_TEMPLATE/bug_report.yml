@@ -1,0 +1,34 @@
+name: Bug report
+description: "Report a problem with MCP Server."
+title: "[Bug]: "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Plugin and Ulanzi Studio versions
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Device model and operating system
+      description: Include the OS version and Mac processor if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or relevant logs
+      description: Optional. Remove tokens, personal details and private paths.
